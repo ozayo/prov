@@ -1,0 +1,16 @@
+#posts,
+#postsWithComments {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.post {
+  background: lightgray;
+  margin: 10px;
+  padding: 20px;
+}
+
+.post:hover {
+  background: white;
+}
